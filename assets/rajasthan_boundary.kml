@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Rajasthan Mining Lease</name>
+    <Style id="leaseBoundary">
+      <LineStyle>
+        <color>ff00ffff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>3300ff00</color>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>Block 1</name>
+      <styleUrl>#leaseBoundary</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              74.7,27.04,0
+              74.75,27.04,0
+              74.75,27.01,0
+              74.7,27.01,0
+              74.7,27.04,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Block 2</name>
+      <styleUrl>#leaseBoundary</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              74.72,27.05,0
+              74.74,27.05,0
+              74.74,27.045,0
+              74.72,27.045,0
+              74.72,27.05,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

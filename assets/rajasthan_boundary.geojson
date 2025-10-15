@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "name": "Rajasthan Mining Lease",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Block 1",
+        "lease_type": "Mining",
+        "authorized": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7,
+              27.04
+            ],
+            [
+              74.75,
+              27.04
+            ],
+            [
+              74.75,
+              27.01
+            ],
+            [
+              74.7,
+              27.01
+            ],
+            [
+              74.7,
+              27.04
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Block 2",
+        "lease_type": "Mining",
+        "authorized": true
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.72,
+              27.05
+            ],
+            [
+              74.74,
+              27.05
+            ],
+            [
+              74.74,
+              27.045
+            ],
+            [
+              74.72,
+              27.045
+            ],
+            [
+              74.72,
+              27.05
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
